@@ -1,0 +1,38 @@
+[
+  {
+    "name": "HTTP (SimpleServer)",
+    "ports": [80, 8080, 8000],
+    "probe": "GET / HTTP/1.1\r\nHost: {ip}\r\nConnection: close\r\n\r\n",
+    "match": "Serving HTTP on"
+  },
+  {
+    "name": "HTTPS (SSL)",
+    "ports": [443],
+    "probe": "special_ssl",
+    "match": null
+  },
+  {
+    "name": "SSH",
+    "ports": [22],
+    "probe": "",
+    "match": "SSH-"
+  },
+  {
+    "name": "FTP",
+    "ports": [21],
+    "probe": "",
+    "match": "220"
+  },
+  {
+    "name": "SMTP",
+    "ports": [25],
+    "probe": "",
+    "match": "220"
+  },
+  {
+    "name": "Telnet",
+    "ports": [23],
+    "probe": "",
+    "match": "Telnet"
+  }
+]
