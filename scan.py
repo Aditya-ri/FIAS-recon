@@ -160,10 +160,10 @@ def print_banner():
     print(random_color+random_art)
 
     print(Fore.RED + "    The FIAS Recon Scanner.")
-    print(Fore.LIGHTWHITE_EX + "    --------------------------------")
+    print(Fore.LIGHTWHITE_EX + "    ------------------------------------------")
     print(Fore.LIGHTBLUE_EX + "    :  Author: ADITYA CHHIMPA                :")
-    print(Fore.LIGHTBLUE_EX + "    :  GitHub: https://github.com/you :")
-    print(Fore.LIGHTWHITE_EX + "    --------------------------------")
+    print(Fore.LIGHTBLUE_EX + "    :  GitHub: https://github.com/Aditya-re  :")
+    print(Fore.LIGHTWHITE_EX + "    ------------------------------------------")
     print("\nEXplore the Scanner LANDSCAPE......")
 
 
