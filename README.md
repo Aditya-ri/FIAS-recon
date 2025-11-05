@@ -23,7 +23,7 @@ FIAS is designed to be installed as a system-wide command on Linux.
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/Aditya-ri/FIAS-recon.git](https://github.com/Aditya-ri/FIAS-recon.git)
+git clone https://github.com/Aditya-ri/FIAS-recon.git
 ```
 
 2. Navigate into the directory:
