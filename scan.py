@@ -162,7 +162,7 @@ def print_banner():
     print(Fore.RED + "    The FIAS Recon Scanner.")
     print(Fore.LIGHTWHITE_EX + "    ------------------------------------------")
     print(Fore.LIGHTBLUE_EX + "    :  Author: ADITYA CHHIMPA                :")
-    print(Fore.LIGHTBLUE_EX + "    :  GitHub: https://github.com/Aditya-re  :")
+    print(Fore.LIGHTBLUE_EX + "    :  GitHub: https://github.com/Aditya-ri  :")
     print(Fore.LIGHTWHITE_EX + "    ------------------------------------------")
     print("\nEXplore the Scanner LANDSCAPE......")
 
