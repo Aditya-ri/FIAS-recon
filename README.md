@@ -61,13 +61,13 @@ FIAS -t 192.168.1.0/24 -p 1-1000 -w 200
 ```
 
 All Options
-
+```Bash
 Flag	Long Flag	Description
 -t	--target	(Required) The target IP, hostname, or CIDR block.
 -p	--ports	(Required) The ports to scan (e.G., 80, 22-100, 80,443).
 -w	--workers	The number of concurrent threads (default: 100).
 -h	--help	Show this help message.
-
+```
 Author
 Aditya Chhimpa
 
