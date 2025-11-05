@@ -10,7 +10,7 @@ fi
 CURRENT_DIR=$(pwd)
 
 # 2. Get the full path to your main script
-SCRIPT_PATH="$CURRENT_DIR/scanner.py"
+SCRIPT_PATH="$CURRENT_DIR/scan.py"
 
 # 3. Check if the script exists
 if [ ! -f "$SCRIPT_PATH" ]; then
